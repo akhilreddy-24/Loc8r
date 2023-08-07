@@ -13,5 +13,7 @@ router.get('/location/review/new',ctrllocation.addReview);
 
 /*other pages*/
 router.get('/about',ctrlothers.about);
+router.get('/signin',ctrlothers.signin);
+router.get('/register',ctrlothers.register);
 
 module.exports=router;
