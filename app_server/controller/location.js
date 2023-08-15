@@ -1,6 +1,6 @@
 /* GET 'home' page */
 module.exports.homelist = function(req, res) {
-    res.render('locations-list', {
+    res.render('location-list', {
     title: 'Loc8r - find a place to work with wifi',
     pageHeader: {
     title: 'Loc8r',
@@ -80,7 +80,7 @@ module.exports.locationInfo = function(req, res) {
     };
 
         module.exports.locationInfo1 = function(req, res) {
-            res.render('location-info', {
+            res.render('location-info1', {
             title: 'Cafe hero',
             pageHeader: {
             title: 'Cafe hero'
@@ -130,7 +130,7 @@ module.exports.locationInfo = function(req, res) {
             };
 
             module.exports.locationInfo2 = function(req, res) {
-                res.render('location-info', {
+                res.render('location-info2', {
                 title: 'Burger queen',
                 pageHeader: {
                 title: 'Burger queen'
